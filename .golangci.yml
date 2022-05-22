@@ -1,0 +1,44 @@
+run:
+  tests: false
+issues:
+  exclude-use-default: false
+  exclude:
+    - ST1000 # stylelint for comment on top of at least one file in a package 
+linters:
+  disable-all: true
+  enable:
+   - govet
+   - errcheck
+   - unused
+   - gosimple
+   - structcheck
+   - varcheck
+   - ineffassign
+   - deadcode
+   - gosec
+   - gocyclo
+   - gofmt
+   - revive
+   - bodyclose
+   - cyclop
+   - durationcheck
+   - exhaustive
+   - exportloopref
+   - forcetypeassert
+   - gocognit
+   - goconst
+   - gocritic
+   - goerr113
+   - makezero
+   - nestif
+   - nilerr
+   - noctx
+   - prealloc
+   - predeclared
+   - rowserrcheck
+   - sqlclosecheck
+   - stylecheck
+   - unconvert
+   - unparam
+   - wastedassign
+   - typecheck
